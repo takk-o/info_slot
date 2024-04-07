@@ -1,0 +1,2 @@
+cd "$(dirname "$0")"
+./info_slot https://ana-slo.com/2024-03-14-パールショップともえ稲毛長沼店-data/

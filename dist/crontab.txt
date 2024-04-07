@@ -1,1 +1,2 @@
-22 11 * * * /Users/ynurmj5e/GitHub/info_slot/dist/info_slot.command
+30 15 * * * /Users/ynurmj5e/GitHub/info_slot/dist/info_slot.command1
+32 15 * * * /Users/ynurmj5e/GitHub/info_slot/dist/info_slot.command2
