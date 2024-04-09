@@ -6,6 +6,7 @@ import openpyxl
 import tkinter as tk
 from pathlib import Path
 import os
+import sys
 
 # 一次元配列を二次元配列に変換(colsに要素数を設定)
 def convert_1d_to_2d(l, cols):
@@ -122,7 +123,9 @@ def info_slot_main(url):
     entry_box.delete(0, tk.END)
     entry_box.update()
 
-os.chdir(os.environ['HOME'])
+# os.chdir(os.environ['HOME'])
+# os.chdir('/Users/hisui')
+os.chdir(Path(sys.argv[0]).resolve().parents[3])
 
 root = tk.Tk()
 root.title('info_slot')
