@@ -1,3 +1,0 @@
-([('info_slot',
-   '/Users/ynurmj5e/GitHub/info_slot/dist/info_slot',
-   'EXECUTABLE')],)

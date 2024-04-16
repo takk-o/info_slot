@@ -1,2 +1,0 @@
-cd "$(dirname "$0")"
-./info_slot https://ana-slo.com/2024-04-04-ビクトリー本店-data/
