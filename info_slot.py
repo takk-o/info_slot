@@ -114,7 +114,8 @@ folder = Path('output')
 folder.mkdir(exist_ok=True)
 
 # excelファイルに出力
-# excel_path = folder.joinpath('info_slot.xlsx')
-excel_path = folder.joinpath(url[20:30]+'.xlsx')
+# excel_path = folder.joinpath(url[20:30]+'.xlsx')
+fname = url.split('/')[3][:-5]
+excel_path = folder.joinpath(fname +'.xlsx')
 wb.save(excel_path)
 wb.close()
